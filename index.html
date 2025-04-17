@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace Peak Telecom Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #28a745;
+            color: white;
+        }
+
+        .logo a {
+            font-size: 2rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            font-size: 1rem;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #007bff, #00bfae);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 20px 40px;
+            border: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        /* About Us Section */
+        .about-us {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .about-us h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .about-us p {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Features Section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            padding: 80px 20px;
+        }
+
+        .feature-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card i {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* CTA Section */
+        .cta {
+            background-color: #28a745;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .features {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .feature-card {
+                padding: 30px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-card {
+                padding: 20px;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="https://www.acepeak.ai/">AcePeak</a>
+        </div>
+        <nav>
+            <a href="https://www.acepeak.ai/">Home</a>
+            <a href="https://www.acepeak.ai/about-us/">About Us</a>
+            <a href="https://www.acepeak.ai/products/voice/voip-providers/">Services</a>
+            <a href="https://www.acepeak.ai/contact-us/">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Automating the Future of Telecom</h1>
+        <p>Get benefits from Ace Peak’s vast network of 2,500+ carriers and innovative services for an exceptional communication solution.</p>
+        <a href="https://www.acepeak.ai/" class="btn">Get Started</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <h2>About AcePeak</h2>
+        <p>AcePeak has been providing innovative telecom solutions for businesses, empowering them with high-quality communication services such as SIP Trunking, A2P SMS, Cloud Contact Centers, and more. We help businesses streamline their operations and reduce costs while improving customer engagement.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <i class="fas fa-cloud"></i>
+            <h3>Cloud Contact Center</h3>
+            <p>Centralize customer communications and improve agent productivity with our scalable cloud platform.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-phone-alt"></i>
+            <h3>SIP Trunking</h3>
+            <p>Reduce operational costs and integrate seamlessly with your existing infrastructure for scalable voice communication.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-sms"></i>
+            <h3>A2P Bulk SMS</h3>
+            <p>Engage your customers instantly with SMS messaging for alerts, promotions, and updates.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-comment-alt"></i>
+            <h3>AI Chatbot</h3>
+            <p>Enhance customer service with AI-driven chatbots that provide 24/7 assistance.</p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <h2>Ready to Automate Your Telecom Needs?</h2>
+        <p>Join businesses worldwide using AcePeak to enhance their communications. Explore our services today.</p>
+        <a href="https://www.acepeak.ai/" class="btn" style="background-color: #007bff;">Get Started Now</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Ace Peak | All Rights Reserved</p>
+        <p><a href="https://www.acepeak.ai/privacy-policy/">Privacy Policy</a> | <a href="https://www.acepeak.ai/terms-and-conditions/">Terms and Conditions</a></p>
+    </footer>
+
+</body>
+</html>
