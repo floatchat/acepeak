@@ -94,7 +94,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-For any issues, questions, or feature requests, feel free to open an issue on GitHub or contact us directly at [support@acepeak.ai](mailto:support@acepeak.ai).
+For any issues, questions, or feature requests, feel free to open an issue on GitHub or contact us directly at [info@acepeakinvestment.com](mailto:acepeakinvestment.com).
 
 ---
 
